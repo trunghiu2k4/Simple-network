@@ -29,7 +29,11 @@ After that, turn DHCP on the router with these commands:
 - exit
 
 Now, run command 'show run' and you can see GigabitEthernet0/0 port with IP 192.168.1.1 and DHCP are enabled.
+
 Next step is created DHCP IP for each PC.
+
 In PC0, choose Desktop -> IP Configuration -> IPv4 Configuration -> choose DHCP, wait for a second and the IP address will be auto set up.
+
 Do the same for the other PC.
+
 Now I have IP in the order from PC0 - PC3: 192.168.1.5; 192.168.1.4; 192.168.1.3; 192.168.1.2 and ping from PC0 to other PCs. ==> All PCs received IPs by DHCP and successfully pinged each other.
